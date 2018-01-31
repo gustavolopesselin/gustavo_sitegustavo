@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+.corpo{
+    background: #FFFFFF;
+}
+
+.header{
+    padding-top: 0%;
+    position: fixed;
+    width: 100%;
+    height: 19%;
+    background: #026EC7;
+    padding: 0px 0;
+    z-index: 100;
+}
+
+.header h1{
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    font-family: verdana;
+    font-weight: bold;
+
+    
+}
+.quote-externo h1:before{
+	content:"";
+	display: block;
+	width: 37%;
+	height: 2px;
+	background: #fff;
+	margin: 0px auto 5px auto; 
+}
+.quote-externo h1:after{
+    content:"";
+	display: block;
+	width: 23%;
+	height: 2px;
+	background: #fff;
+    margin: 5px auto 0px auto; 
+    
+}
+   
+.foto{
+    height: 550px;
+	background: url("../img/fotoprincipal.jpg") no-repeat center;
+	background-size: cover;
+	padding-top: 30%;
+	text-align: center;
+}
+.sectionh1 {
+    font-family: 'Lucida Sans';
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto 0px auto; 
+}
+.subtitulo{
+    font-size: 30px;
+	line-height: 50px;
+	font-weight: bold;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	text-align: left;
+    margin-bottom: 40px;
+}
+
+.borda{
+    border: 3px;
+    border-style: outset;
+    border-color: #474747;
+    border-bottom-style: solid;
+}
+
+.titulos h1:after, .titulos h1::before{
+    
+    content:"";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 0, 0);
+     /* margin: 14px auto 10px auto;  */
+    
+}
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.tamanho{
+    height: 750px;
+}
+.barras p{
+    
+    border-bottom: 1px solid rgb(221, 221, 221) ;
+}
+/* ====================== sobre ==================== */
+.imgperfil{
+    height: 320px;
+    margin: 0 auto; /* centralizar a img */
+
+}
+.sobreinformacao{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+.sobreinformacao li{
+    border-bottom: 1px dashed #026EC7;
+    
+}
+
+.imgdeimpacto{
+    height: 230px;
+	background: url("../img/final.jpg") no-repeat center;
+	text-align: center;
+}
+.imgdeimpacto h1{
+    text-transform: uppercase;
+    padding:20px 0;
+    font-family: sans-serif;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+.imgdeimpacto h5{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+
+}
+.espacoinfo{
+    margin-top: 30px;
+}
+.expli{
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.infor{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+}
+.imgsespaco{
+    padding-left: 20px;
+}
+
+
+/* =============== footer ================ */
+.fundofooter{
+
+    background: #026EC7;
+    height: 80px;
+
+}
+.fundofooter h1{
+    margin-top: 4px;
+    font-family: height;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.mar{
+    padding:22px 0;
+}
+
+
